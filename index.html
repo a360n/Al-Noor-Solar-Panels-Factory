@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>مصنع النور للألواح الشمسية | Al Noor Solar Panels Factory</title>
+    <meta name="description"
+        content="موقع تعريفي لمصنع النور للألواح الشمسية  - رواد صناعة وتوطين تقنيات الطاقة الشمسية عالية الكفاءة والخاضعة لأحدث معايير الفحص المجهري الكهروضوئي.">
+    <meta name="keywords"
+        content="ألواح شمسية, طاقة شمسية, مصنع ألواح شمسية, طاقة نظيفة, Al Noor Solar, صناعة عراقية, كفاءة طاقة">
+
+    <!-- Icons (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Primary Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Contact & Language Bar -->
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-info">
+                <div class="topbar-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+964 12 345 6789</span>
+                </div>
+                <div class="topbar-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>sales@alnoorsolar.com</span>
+                </div>
+            </div>
+            <div>
+                <button id="lang-toggle-btn" class="lang-switch">English</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header / Navigation -->
+    <header id="main-nav" class="navbar">
+        <div class="container">
+            <a href="#home" class="logo-area">
+                <img src="logo.png" alt="شعار مصنع النور" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title" data-i18n="logo-title-text">النور <span>للألواح </span>الشمسية </span>
+                    <span class="logo-subtitle" data-i18n="logo-subtitle-text"></span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home" class="nav-link" data-i18n="nav-home">الرئيسية</a>
+                <a href="#about" class="nav-link" data-i18n="nav-about">من نحن</a>
+                <a href="#quality" class="nav-link" data-i18n="nav-quality">التقنية والجودة</a>
+                <a href="#products" class="nav-link" data-i18n="nav-products">منتجاتنا</a>
+                <a href="#projects" class="nav-link" data-i18n="nav-projects">مشاريعنا</a>
+                <a href="#contact" class="nav-link" data-i18n="nav-contact">اتصل بنا</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="nav-cta">احصل على تسعيرة</a>
+            </nav>
+
+            <button id="mobile-menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Section 1: Hero / Website Interface -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero_solar.jpg" alt="خط إنتاج مصنع النور للألواح الشمسية">
+        </div>
+        <div class="container">
+            <div class="hero-content reveal">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-solar-panel"></i>
+                    <span data-i18n="hero-badge-span">صناعة وطنية رائدة</span>
+                </div>
+                <h1 class="hero-title" id="hero-main-title" data-i18n="hero-title">
+                    طاقة مستدامة... <span>بجودة صناعية موثوقة</span>
+                </h1>
+                <p class="hero-desc" data-i18n="hero-desc">
+                    مصنع النور للألواح الشمسية يقدم أحدث حلول الطاقة المتجددة المصممة لتحمل أصعب الظروف
+                    البيئية بكفاءة عالية وضمان طويل الأمد.
+                </p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-accent" data-i18n="hero-cta">اكتشف منتجاتنا</a>
+                    <a href="#contact" class="btn btn-dark" data-i18n="hero-sec-cta">طلب استشارة مجانية</a>
+                </div>
+            </div>
+
+            <!-- Hero Quick Stats -->
+            <div class="hero-stats reveal">
+                <div class="stat-item">
+                    <span class="stat-num" data-i18n="stat-capacity-val">250+ <span>ميجا</span></span>
+                    <span class="stat-label" data-i18n="stat-capacity-lbl">الطاقة الإنتاجية السنوية</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num" data-i18n="stat-efficiency-val">23.8% <span>كفاءة</span></span>
+                    <span class="stat-label" data-i18n="stat-efficiency-lbl">أعلى كفاءة خلايا شمسية</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num" data-i18n="stat-warranty-val">30 <span>سنة</span></span>
+                    <span class="stat-label" data-i18n="stat-warranty-lbl">ضمان الأداء التشغيلي</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: About  -->
+    <section id="about" class="about section-padding watermarked-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="about-img-container">
+                        <img src="assets/project_2.jpg" alt="مشروع تركيب ألواح مصنع النور">
+                    </div>
+                    <div class="about-experience">
+                        <h4 data-i18n="about-exp-num">15+</h4>
+                        <p data-i18n="about-exp-txt">عاماً من الخبرة الهندسية</p>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <span class="badge" data-i18n="about-badge">من نحن</span>
+                    <h2 class="logo-title" style="font-size:2.2rem; margin-bottom: 20px;" data-i18n="about-title">رواد
+                        توطين تقنيات الطاقة الشمسية</h2>
+                    <p style="color:#555; margin-bottom: 18px;" data-i18n="about-desc-1">
+                        تأسس مصنع النور للألواح الشمسية ليكون الركيزة الأساسية للتحول نحو الطاقة النظيفة في المنطقة.
+                        نحن نوفر أحدث تقنيات التصنيع المؤتمتة بالكامل لإنتاج خلايا وألواح شمسية عالية الجودة تتطابق مع
+                        المعايير الدولية.
+                    </p>
+                    <p style="color:#555; margin-bottom: 30px;" data-i18n="about-desc-2">
+                        رؤيتنا تكمن في تقديم طاقة نظيفة ومستدامة وبأسعار تنافسية تمكن القطاعات السكنية والصناعية
+                        والحكومية من تحقيق الاكتفاء الذاتي من الطاقة وتقليل الانبعاثات الكربونية.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fa-solid fa-robot"></i>
+                            </div>
+                            <div>
+                                <h4 class="about-feature-title" data-i18n="feat-1-title">تصنيع مؤتمت بالكامل</h4>
+                                <p class="about-feature-desc" data-i18n="feat-1-desc">خطوط إنتاج روبوتية متطورة تضمن دقة
+                                    التصنيع وتمنع الخطأ البشري في تجميع الألواح.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fa-solid fa-wind"></i>
+                            </div>
+                            <div>
+                                <h4 class="about-feature-title" data-i18n="feat-2-title">مقاومة الظروف القاسية</h4>
+                                <p class="about-feature-desc" data-i18n="feat-2-desc">ألواح مصممة لمقاومة الغبار، درجات
+                                    الحرارة المرتفعة، والرياح الشديدة بفضل طلاءات نانوية واقية.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div>
+                                <h4 class="about-feature-title" data-i18n="feat-3-title">مطابقة المعايير الأوروبية</h4>
+                                <p class="about-feature-desc" data-i18n="feat-3-desc">جميع منتجاتنا حاصلة على شهادات
+                                    الجودة العالمية مثل TUV وIEC لضمان أقصى درجات الأمان.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Technology and Quality Control (Dark Testing Room Theme) -->
+    <!-- <section id="quality" class="quality section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="badge" data-i18n="quality-badge">مختبر الجودة والتحليل</span>
+                <h2 data-i18n="quality-title">تقنية الفحص المجهري الضوئي (EL Testing)</h2>
+                <p data-i18n="quality-desc">
+                    التقنية الأهم لضمان سلامة الألواح. نقوم بتصوير الخلايا داخلياً باستخدام كاميرات فحص التلألؤ
+                    الكهربائي عالية الدقة لرصد أي تشققات مجهرية غير مرئية بالعين المجردة قبل طرح المنتج في السوق.
+                </p>
+            </div>
+
+            <div class="quality-grid">
+                Test steps list
+                <div class="quality-content reveal">
+                    <h3 data-i18n="quality-title-steps" style="color:#ffffff;">مراحل اختبار وضبط الجودة</h3>
+                    <div class="test-steps">
+                        <div class="test-step active">
+                            <span class="step-num">1</span>
+                            <div class="step-info">
+                                <h4 data-i18n="step-1-title">اختبار التلألؤ الكهربائي (EL)</h4>
+                                <p data-i18n="step-1-desc">تمرير تيار عكسي في اللوح ليصدر ضوءاً غير مرئي يكشف سلامة
+                                    السيليكون بنسبة 100%.</p>
+                            </div>
+                        </div>
+                        <div class="test-step">
+                            <span class="step-num">2</span>
+                            <div class="step-info">
+                                <h4 data-i18n="step-2-title">اختبار المحاكاة الشمسية (Flash Test)</h4>
+                                <p data-i18n="step-2-desc">قياس دقيق للقدرة الكهربائية الفعلية للوح تحت ظروف معيارية
+                                    مطابقة للشمس الحقيقية.</p>
+                            </div>
+                        </div>
+                        <div class="test-step">
+                            <span class="step-num">3</span>
+                            <div class="step-info">
+                                <h4 data-i18n="step-3-title">اختبار العزل الحراري والرطوبة</h4>
+                                <p data-i18n="step-3-desc">تعريض الألواح لدرجات حرارة ورطوبة قصوى للتأكد من متانة المواد
+                                    اللاصقة ومقاومة التآكل.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                Interactive EL Simulator Widget
+                <div class="el-simulator reveal" id="interactive-el-sim">
+                    <h4 style="color:#ffffff; margin-bottom: 16px;" data-i18n="sim-title">محاكي فحص التلألؤ الكهربائي
+                        (EL Tester)</h4>
+
+                    <div class="el-view-container">
+                        Normal Panel Image
+                        <img src="assets/panel_mono.jpg" alt="صورة لوح شمسي طبيعي" class="el-image normal-view">
+                        EL Glow Scan Image
+                        <img src="assets/el_test.jpg" alt="فحص التلألؤ الكهربائي للوح" class="el-image el-view">
+                        Scan Scanner Line
+                        <div class="el-scanner-beam"></div>
+                    </div>
+
+                    <div class="el-controls">
+                        <div class="el-status-indicator">
+                            <span data-i18n="el-status-text" id="el-status-text">حالة اللوح: بانتظار الفحص</span>
+                            <span class="el-status-light" id="el-status-light-text">سليم (جاهز)</span>
+                        </div>
+                        <div style="display:flex; gap:12px;">
+                            <button id="el-start-btn" class="btn btn-primary" style="flex:1;"
+                                data-i18n="sim-btn-start">تشغيل الفحص المجهري (EL)</button>
+                            <button id="el-reset-btn" class="btn btn-secondary"
+                                style="color:#ffffff; border-color:#ffffff;" data-i18n="sim-btn-reset">العودة للوضع
+                                الطبيعي</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Section 4: Our Products -->
+    <section id="products" class="products section-padding watermarked-section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="badge" data-i18n="prod-badge">خطوط الإنتاج</span>
+                <h2 data-i18n="prod-title">ألواح شمسية عالية الأداء</h2>
+                <p data-i18n="prod-desc">نقدم ثلاثة فئات رئيسية تلبي متطلبات المشاريع المختلفة من الاستخدام المنزلي
+                    الصغير إلى محطات الطاقة الكبرى.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product Card 1: Monocrystalline -->
+                <div class="product-card reveal">
+                    <div class="product-img-wrapper">
+                        <span class="product-badge" data-i18n="prod-1-badge">الأكثر مبيعاً</span>
+                        <img src="assets/panel_mono.jpg" alt="لوح النور Monocrystalline">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="prod-1-name">لوح النور Monocrystalline</h3>
+                        <p class="product-desc" data-i18n="prod-1-desc">
+                            لوح أحادي البلورة عالي الكفاءة، مصمم للأسطح السكنية والمساحات المحدودة التي تتطلب أعلى
+                            إنتاجية طاقة.
+                        </p>
+                        <div class="product-specs">
+                            <div class="spec-box">
+                                <span class="spec-label">القدرة</span>
+                                <span class="spec-val" data-i18n="prod-1-spec-w-val">580 واط</span>
+                            </div>
+                            <div class="spec-box">
+                                <span class="spec-label">الكفاءة</span>
+                                <span class="spec-val" data-i18n="prod-1-spec-e-val">22.5%</span>
+                            </div>
+                            <div class="spec-box">
+                                <span class="spec-label">النوع</span>
+                                <span class="spec-val" data-i18n="prod-1-spec-t-val">أحادي</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary" onclick="viewDatasheet('mono')">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <span data-i18n="prod-btn-sheet">تحميل ورقة البيانات الفنية</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2: Bifacial -->
+                <div class="product-card reveal">
+                    <div class="product-img-wrapper">
+                        <span class="product-badge" data-i18n="prod-2-badge">للمشاريع الكبرى</span>
+                        <img src="assets/panel_bifacial.jpg" alt="لوح النور ثنائي الوجه">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="prod-2-name">لوح النور Bifacial (ثنائي الوجه)</h3>
+                        <p class="product-desc" data-i18n="prod-2-desc">
+                            يمتص الضوء من الجانبين الأمامي والخلفي للاستفادة من انعكاس الأرض (Albedo)، مما يزيد
+                            الإنتاجية بنسبة تصل لـ 25%.
+                        </p>
+                        <div class="product-specs">
+                            <div class="spec-box">
+                                <span class="spec-label">القدرة</span>
+                                <span class="spec-val" data-i18n="prod-2-spec-w-val">670 واط</span>
+                            </div>
+                            <div class="spec-box">
+                                <span class="spec-label">الكفاءة</span>
+                                <span class="spec-val" data-i18n="prod-2-spec-e-val">23.0%</span>
+                            </div>
+                            <div class="spec-box">
+                                <span class="spec-label">النوع</span>
+                                <span class="spec-val" data-i18n="prod-2-spec-t-val">ثنائي الوجه</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary" onclick="viewDatasheet('bifacial')">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <span data-i18n="prod-btn-sheet">تحميل ورقة البيانات الفنية</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3: Smart PV -->
+                <div class="product-card reveal">
+                    <div class="product-img-wrapper">
+                        <span class="product-badge" data-i18n="prod-3-badge">الجيل الذكي</span>
+                        <img src="assets/panel_smart.jpg" alt="لوح النور الذكي">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="prod-3-name">لوح النور Smart PV</h3>
+                        <p class="product-desc" data-i18n="prod-3-desc">
+                            مزود بمحسنات طاقة وميكروإنفرتر مدمج للمراقبة الفردية لكل لوح وحماية تلقائية من تقلبات الجهد
+                            الكهربائي.
+                        </p>
+                        <div class="product-specs">
+                            <div class="spec-box">
+                                <span class="spec-label">القدرة</span>
+                                <span class="spec-val" data-i18n="prod-3-spec-w-val">600 واط</span>
+                            </div>
+                            <div class="spec-box">
+                                <span class="spec-label">الكفاءة</span>
+                                <span class="spec-val" data-i18n="prod-3-spec-e-val">23.8%</span>
+                            </div>
+                            <div class="spec-box">
+                                <span class="spec-label">النوع</span>
+                                <span class="spec-val" data-i18n="prod-3-spec-t-val">ذكي مدمج</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary" onclick="viewDatasheet('smart')">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <span data-i18n="prod-btn-sheet">تحميل ورقة البيانات الفنية</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Our Projects / Partners in Success -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="badge" data-i18n="proj-badge">شركاء النجاح</span>
+                <h2 data-i18n="proj-title">مشاريع تفخر بألواح النور</h2>
+            </div>
+
+            <div class="projects-filter reveal">
+                <button class="filter-btn active" data-filter="all" data-i18n="proj-filter-all">الكل</button>
+                <button class="filter-btn" data-filter="utility" data-i18n="proj-filter-utility">محطات طاقة</button>
+                <button class="filter-btn" data-filter="commercial" data-i18n="proj-filter-commercial">تجاري
+                    وصناعي</button>
+            </div>
+
+            <div class="projects-grid reveal">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="utility">
+                    <img src="assets/project_1.jpg" alt="محطة النور الكبرى للطاقة الشمسية" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-cat" data-i18n="proj-1-cat">محطات طاقة</span>
+                        <h3 class="project-title" data-i18n="proj-1-title">محطة النور الكبرى للطاقة</h3>
+                        <p class="project-details" data-i18n="proj-1-desc">قدرة 50 ميجاواط - توفير الطاقة لأكثر من
+                            15,000 منزل.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="commercial">
+                    <img src="assets/project_2.jpg" alt="تركيب ألواح فوق مبنى تجاري" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-cat" data-i18n="proj-2-cat">تجاري وصناعي</span>
+                        <h3 class="project-title" data-i18n="proj-2-title">سقف مجمع الأعمال الذكي</h3>
+                        <p class="project-details" data-i18n="proj-2-desc">قدرة 2 ميجاواط - تغطية 80% من احتياجات المجمع
+                            الإداري.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Contact Us & Interactive Calculator -->
+    <section id="contact" class="contact section-padding watermarked-section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Interactive Generation Calculator -->
+                <div class="quote-calculator reveal">
+                    <h3 data-i18n="calc-title">احسب احتياجك الكهربائي التقديري</h3>
+                    <p data-i18n="calc-desc">اختر نوع اللوح وحدد المساحة أو الكمية لحساب الطاقة الإجمالية المتوقع
+                        إنتاجها سنوياً.</p>
+
+                    <div class="calc-form">
+                        <div class="form-group">
+                            <label for="calc-panel-type" data-i18n="calc-lbl-type">اختر فئة اللوح الشمسية:</label>
+                            <select id="calc-panel-type">
+                                <option value="mono">لوح أحادي Monocrystalline (580W)</option>
+                                <option value="bifacial">لوح ثنائي الوجه Bifacial (670W)</option>
+                                <option value="smart">لوح ذكي Smart PV (600W)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="calc-panel-qty" data-i18n="calc-lbl-qty">كمية الألواح المطلوبة (عدد
+                                الألواح):</label>
+                            <input type="number" id="calc-panel-qty" value="100" min="1" max="10000">
+                        </div>
+                    </div>
+
+                    <div class="calc-results">
+                        <h4 style="margin-bottom: 12px;" data-i18n="calc-res-title">النتائج التقديرية للحساب:</h4>
+                        <div class="result-row">
+                            <span class="result-label" data-i18n="calc-res-cap">إجمالي القدرة المركبة:</span>
+                            <span class="result-val" id="calc-val-capacity">58.00 kW</span>
+                        </div>
+                        <div class="result-row">
+                            <span class="result-label" data-i18n="calc-res-gen">الإنتاج السنوي المتوقع:</span>
+                            <span class="result-val" id="calc-val-generation">110,084 kWh</span>
+                        </div>
+                        <div class="result-row">
+                            <span class="result-label" data-i18n="calc-res-area">المساحة التقريبية المطلوبة:</span>
+                            <span class="result-val" id="calc-val-area">258.0 m²</span>
+                        </div>
+                        <div class="result-row">
+                            <span class="result-label" data-i18n="calc-res-savings">الوفر المالي السنوي المتوقع:</span>
+                            <span class="result-val" id="calc-val-savings">0 د.ع</span>
+                        </div>
+                        <div class="result-row">
+                            <span class="result-label" data-i18n="calc-res-payback">فترة استرداد التكلفة:</span>
+                            <span class="result-val" id="calc-val-payback">0 سنوات</span>
+                        </div>
+                        <div class="result-row result-total">
+                            <span class="result-label" data-i18n="calc-res-cost">التكلفة التقديرية للمشروع:</span>
+                            <span class="result-val" id="calc-val-cost">0 د.ع</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Forms & Details -->
+                <div class="contact-sidebar reveal">
+                    <div class="contact-info-cards">
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <h4 data-i18n="info-card-1-title">موقع المصنع الرئيسي</h4>
+                            <p data-i18n="info-card-1-desc">مجمع العتبة العباسية الصناعي ، كربلاء ، العراق</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <h4 data-i18n="info-card-2-title">المبيعات والدعم الفني</h4>
+                            <p data-i18n="info-card-2-desc">sales@alnoorsolar.com<br>+964 12 345 6789</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <h3 data-i18n="form-title">طلب استشارة وعرض أسعار فني</h3>
+                        <form id="rfp-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name" data-i18n="form-lbl-name">الاسم الكامل / اسم الشركة:</label>
+                                <input type="text" id="form-name" required data-i18n-placeholder="form-holder-name"
+                                    placeholder="مثال: شركة المقاولات الحديثة">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email" data-i18n="form-lbl-email">البريد الإلكتروني:</label>
+                                <input type="email" id="form-email" required data-i18n-placeholder="form-holder-email"
+                                    placeholder="example@domain.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-phone" data-i18n="form-lbl-phone">رقم الجوال:</label>
+                                <input type="text" id="form-phone" required data-i18n-placeholder="form-holder-phone"
+                                    placeholder="+964 50 000 0000">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-msg" data-i18n="form-lbl-msg">تفاصيل المشروع وموقع التركيب:</label>
+                                <textarea id="form-msg" rows="4" required data-i18n-placeholder="form-holder-msg"
+                                    placeholder="يرجى كتابة مساحة السطح المتاحة أو القدرة المطلوبة بالكيلوواط..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="margin-top:10px;">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span data-i18n="form-btn-submit">إرسال طلب التسعيرة الفنية</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="شعار النور">
+                        <span class="footer-logo-title" data-i18n="logo-title-text">النور <span>للألواح </span> الشمسية
+                        </span>
+                    </div>
+                    <p data-i18n="footer-desc">
+                        مصنع وطني متخصص في إنتاج وتوطين تقنيات الخلايا والألواح الكهروضوئية عالية الكفاءة بأحدث التقنيات
+                        الألمانية والأوروبية.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 data-i18n="footer-col-links">روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-i18n="nav-home">الرئيسية</a></li>
+                        <li><a href="#about" data-i18n="nav-about">من نحن</a></li>
+                        <li><a href="#quality" data-i18n="nav-quality">التقنية والجودة</a></li>
+                        <li><a href="#products" data-i18n="nav-products">منتجاتنا</a></li>
+                        <li><a href="#projects" data-i18n="nav-projects">مشاريعنا</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 data-i18n="nav-products">منتجاتنا</h4>
+                    <ul class="footer-links">
+                        <li><a href="#products" data-i18n="prod-1-name">لوح النور Monocrystalline</a></li>
+                        <li><a href="#products" data-i18n="prod-2-name">لوح النور Bifacial</a></li>
+                        <li><a href="#products" data-i18n="prod-3-name">لوح النور Smart PV</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact-info">
+                    <h4 data-i18n="footer-col-contact">تواصل معنا مباشرة</h4>
+                    <div class="footer-contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span data-i18n="footer-contact-addr">مجمع العتبة العباسية الصناعي ، كربلاء ، العراق</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+9647714199995</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@alnoorsolar.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p id="copyright-text" data-i18n="footer-copyright">&copy; 2026 مصنع النور للألواح الشمسية. جميع
+                    الحقوق محفوظة لـ .</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shared Overlay Modal (For Datasheet Specs and Form Success) -->
+    <div id="shared-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title" class="modal-title">ورقة المواصفات الفنية</h3>
+                <button id="modal-close-btn" class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic Content Loaded via JS -->
+            </div>
+            <div class="modal-footer">
+                <button id="modal-action-btn" class="btn btn-primary" style="display:none;"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
