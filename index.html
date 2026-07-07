@@ -175,7 +175,7 @@
     </section>
 
     <!-- Section 3: Technology and Quality Control (Dark Testing Room Theme) -->
-    <!-- <section id="quality" class="quality section-padding">
+    <section id="quality" class="quality section-padding">
         <div class="container">
             <div class="section-header text-center reveal">
                 <span class="badge" data-i18n="quality-badge">مختبر الجودة والتحليل</span>
@@ -187,7 +187,7 @@
             </div>
 
             <div class="quality-grid">
-                Test steps list
+                <!-- Test steps list -->
                 <div class="quality-content reveal">
                     <h3 data-i18n="quality-title-steps" style="color:#ffffff;">مراحل اختبار وضبط الجودة</h3>
                     <div class="test-steps">
@@ -218,17 +218,17 @@
                     </div>
                 </div>
 
-                Interactive EL Simulator Widget
+                <!-- Interactive EL Simulator Widget -->
                 <div class="el-simulator reveal" id="interactive-el-sim">
                     <h4 style="color:#ffffff; margin-bottom: 16px;" data-i18n="sim-title">محاكي فحص التلألؤ الكهربائي
                         (EL Tester)</h4>
 
                     <div class="el-view-container">
-                        Normal Panel Image
+                        <!-- Normal Panel Image -->
                         <img src="assets/panel_mono.jpg" alt="صورة لوح شمسي طبيعي" class="el-image normal-view">
-                        EL Glow Scan Image
+                        <!-- EL Glow Scan Image -->
                         <img src="assets/el_test.jpg" alt="فحص التلألؤ الكهربائي للوح" class="el-image el-view">
-                        Scan Scanner Line
+                        <!-- Scan Scanner Line -->
                         <div class="el-scanner-beam"></div>
                     </div>
 
@@ -248,7 +248,101 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
+
+    <!-- Section: Quality Certifications & Compliance -->
+    <section id="certifications" class="section-padding" style="background-color: var(--bg-white);">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="badge" data-i18n="cert-badge">الاعتمادات والجودة</span>
+                <h2 data-i18n="cert-title">شهادات الاعتماد والجودة العالمية</h2>
+                <p data-i18n="cert-desc">جميع ألواحنا الشمسية معتمدة ومطابقة لأعلى المواصفات واللوائح الفنية المحلية والدولية لضمان سلامة الشبكة وكفاءة الأداء.</p>
+            </div>
+            
+            <style>
+                .certs-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 24px;
+                }
+                .cert-card {
+                    background-color: var(--bg-light);
+                    border: 1px solid rgba(0, 0, 0, 0.05);
+                    padding: 30px 24px;
+                    border-radius: var(--border-radius);
+                    text-align: center;
+                    box-shadow: var(--shadow-sm);
+                    transition: var(--transition);
+                }
+                .cert-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: var(--shadow-md);
+                    border-color: rgba(13, 138, 149, 0.2);
+                    background-color: var(--bg-white);
+                }
+                .cert-icon {
+                    font-size: 2.5rem;
+                    color: var(--primary);
+                    margin-bottom: 20px;
+                }
+                .cert-card h3 {
+                    font-size: 1.1rem;
+                    margin-bottom: 12px;
+                    color: var(--secondary);
+                }
+                .cert-card p {
+                    font-size: 0.85rem;
+                    color: #666;
+                    line-height: 1.5;
+                }
+                @media (max-width: 992px) {
+                    .certs-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+                @media (max-width: 576px) {
+                    .certs-grid {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+            
+            <div class="certs-grid reveal">
+                <!-- Cert 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 data-i18n="cert-1-title">IEC 61215 / 61730</h3>
+                    <p data-i18n="cert-1-desc">الشهادة العالمية الأهم لاختبار تصميم الألواح ومقاومتها للأحمال الميكانيكية والحرارية والأمان الكهربائي.</p>
+                </div>
+                <!-- Cert 2 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-file-shield"></i>
+                    </div>
+                    <h3 data-i18n="cert-2-title">ISO 9001:2015</h3>
+                    <p data-i18n="cert-2-desc">شهادة نظام إدارة الجودة الدولية في التصنيع لضمان اتساق جودة المنتج وخلو خطوط التجميع من العيوب.</p>
+                </div>
+                <!-- Cert 3 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3 data-i18n="cert-3-title">علامة CE الأوروبية</h3>
+                    <p data-i18n="cert-3-desc">توافق تام مع معايير السلامة والصحة وحماية البيئة الخاصة بدول الاتحاد الأوروبي لتصدير ألواحنا عالمياً.</p>
+                </div>
+                <!-- Cert 4 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-building-shield"></i>
+                    </div>
+                    <h3 data-i18n="cert-4-title">مطابقة الشبكة الوطنية</h3>
+                    <p data-i18n="cert-4-desc">مطابقة كاملة لمتطلبات الربط بالشبكة الكهربائية العراقية واللوائح الفنية لهيئة السيطرة النوعية والتقييس.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Section 4: Our Products -->
     <section id="products" class="products section-padding watermarked-section">
@@ -398,6 +492,63 @@
                         <h3 class="project-title" data-i18n="proj-2-title">سقف مجمع الأعمال الذكي</h3>
                         <p class="project-details" data-i18n="proj-2-desc">قدرة 2 ميجاواط - تغطية 80% من احتياجات المجمع
                             الإداري.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Interactive FAQ -->
+    <section id="faq" class="section-padding" style="background-color: var(--bg-white);">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="badge" data-i18n="faq-badge">الأسئلة الشائعة</span>
+                <h2 data-i18n="faq-title">أسئلة شائعة حول ألواح النور</h2>
+                <p data-i18n="faq-desc">إليك كافة الإجابات الفنية والتشغيلية التي قد تحتاج لمعرفتها عن أنظمتنا الكهروضوئية.</p>
+            </div>
+            
+            <div class="faq-accordion reveal">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-i18n="faq-q1">كيف تتلاءم ألواح النور مع درجات الحرارة المرتفعة والغبار؟</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a1">تم طلاء ألواح النور بطبقة نانوية واقية من الغبار والماء (Hydrophobic Coating) تقلل من تراكم الأتربة. كما أنها تمتاز بمعامل حراري منخفض جداً (-0.34%/درجة مئوية) مما يحافظ على كفاءة توليد الطاقة حتى في حرارة الصيف القصوى.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-i18n="faq-q2">ما هي مدة الضمان وما الذي يغطيه بالضبط؟</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a2">نمنح ضماناً مصنعياً شاملاً لمدة 12 سنة على المواد وعيوب التصنيع، وضمان أداء تشغيلي خطي لمدة 30 سنة يضمن عدم انخفاض كفاءة اللوح عن 87.4% من قدرته الاسمية عند السنة الثلاثين.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-i18n="faq-q3">هل يمكن ربط ألواحكم مع أنظمة بطاريات الخزن؟</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a3">نعم، جميع ألواحنا متوافقة تماماً مع كافة أنواع العواكس الهجينة (Hybrid Inverters) والمستقلة (Off-Grid) كـ Deye و Growatt وعواكس Enphase الذكية، وتعمل بسلاسة مع بطاريات الليثيوم والأسيد.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-i18n="faq-q4">هل ألواحكم مهيأة لمشاريع صافي القياس (Net Metering)؟</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a4">نعم، تم تصميم ألواحنا واختبارها لتتوافق مع اللوائح الوطنية ومعايير الربط بشبكات التوزيع المحلية، مما يتيح لك تصدير الطاقة الفائضة للشبكة وتقليل فواتيرك بشكل قانوني وآمن.</p>
                     </div>
                 </div>
             </div>

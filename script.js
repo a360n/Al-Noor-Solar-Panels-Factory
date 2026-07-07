@@ -158,7 +158,29 @@ const translations = {
         // Form Success Popup
         "success-title": "تم استلام طلبك بنجاح!",
         "success-msg": "نشكرك على اهتمامك بمنتجات مصنع النور. سيقوم أحد مهندسي المبيعات لدينا بالاتصال بك في أقرب وقت لمراجعة تفاصيل المشروع وتقديم العرض الفني والمالي.",
-        "success-btn": "حسناً"
+        "success-btn": "حسناً",
+
+        // Quality Certifications
+        "cert-badge": "الاعتمادات والجودة",
+        "cert-title": "شهادات الاعتماد والجودة العالمية",
+        "cert-desc": "جميع ألواحنا الشمسية معتمدة ومطابقة لأعلى المواصفات واللوائح الفنية المحلية والدولية لضمان سلامة الشبكة وكفاءة الأداء.",
+        "cert-1-desc": "الشهادة العالمية الأهم لاختبار تصميم الألواح ومقاومتها للأحمال الميكانيكية والحرارية والأمان الكهربائي.",
+        "cert-2-desc": "شهادة نظام إدارة الجودة الدولية في التصنيع لضمان اتساق جودة المنتج وخلو خطوط التجميع من العيوب.",
+        "cert-3-desc": "توافق تام مع معايير السلامة والصحة وحماية البيئة الخاصة بدول الاتحاد الأوروبي لتصدير ألواحنا عالمياً.",
+        "cert-4-desc": "مطابقة كاملة لمتطلبات الربط بالشبكة الكهربائية العراقية واللوائح الفنية لهيئة السيطرة النوعية والتقييس.",
+
+        // FAQ
+        "faq-badge": "الأسئلة الشائعة",
+        "faq-title": "أسئلة شائعة حول ألواح النور",
+        "faq-desc": "إليك كافة الإجابات الفنية والتشغيلية التي قد تحتاج لمعرفتها عن أنظمتنا الكهروضوئية.",
+        "faq-q1": "كيف تتلاءم ألواح النور مع درجات الحرارة المرتفعة والغبار؟",
+        "faq-a1": "تم طلاء ألواح النور بطبقة نانوية واقية من الغبار والماء (Hydrophobic Coating) تقلل من تراكم الأتربة. كما أنها تمتاز بمعامل حراري منخفض جداً (-0.34%/درجة مئوية) مما يحافظ على كفاءة توليد الطاقة حتى في حرارة الصيف القصوى.",
+        "faq-q2": "ما هي مدة الضمان وما الذي يغطيه بالضبط؟",
+        "faq-a2": "نمنح ضماناً مصنعياً شاملاً لمدة 12 سنة على المواد وعيوب التصنيع، وضمان أداء تشغيلي خطي لمدة 30 سنة يضمن عدم انخفاض كفاءة اللوح عن 87.4% من قدرته الاسمية عند السنة الثلاثين.",
+        "faq-q3": "هل يمكن ربط ألواحكم مع أنظمة بطاريات الخزن؟",
+        "faq-a3": "نعم، جميع ألواحنا متوافقة تماماً مع كافة أنواع العواكس الهجينة (Hybrid Inverters) والمستقلة (Off-Grid) كـ Deye و Growatt وعواكس Enphase الذكية، وتعمل بسلاسة مع بطاريات الليثيوم والأسيد.",
+        "faq-q4": "هل ألواحكم مهيأة لمشاريع صافي القياس (Net Metering)؟",
+        "faq-a4": "نعم، تم تصميم ألواحنا واختبارها لتتوافق مع اللوائح الوطنية ومعايير الربط بشبكات التوزيع المحلية، مما يتيح لك تصدير الطاقة الفائضة للشبكة وتقليل فواتيرك بشكل قانوني وآمن."
     },
     en: {
         // Logo & Brand
@@ -314,7 +336,29 @@ const translations = {
         // Form Success Popup
         "success-title": "RFP Submitted Successfully!",
         "success-msg": "Thank you for contacting Al Noor Solar. One of our sales engineers will contact you shortly to review your requirements and provide a detailed technical and commercial proposal.",
-        "success-btn": "Close"
+        "success-btn": "Close",
+
+        // Quality Certifications
+        "cert-badge": "Quality & Certifications",
+        "cert-title": "Global Certifications & Standards",
+        "cert-desc": "All our solar panels are certified and comply with the highest local and international technical standards for grid safety and efficiency.",
+        "cert-1-desc": "The most important global certification testing module design, mechanical load resistance, thermal cycles, and electrical safety.",
+        "cert-2-desc": "International Standard for Quality Management Systems in manufacturing, ensuring product consistency and defect-free assembly lines.",
+        "cert-3-desc": "Full compliance with safety, health, and environmental protection standards of the European Economic Area for global export.",
+        "cert-4-desc": "Full compatibility with the Iraqi national grid connection standards and regulatory requirements of the Central Organization for Standardization and Quality Control.",
+
+        // FAQ
+        "faq-badge": "FAQ",
+        "faq-title": "Frequently Asked Questions",
+        "faq-desc": "Find answers to common technical and operational questions about our solar photovoltaic systems.",
+        "faq-q1": "How do Al Noor panels perform under high temperatures and dust?",
+        "faq-a1": "Al Noor panels feature a hydrophobic nano-coating that minimizes dust build-up. They also possess an ultra-low temperature coefficient of -0.34%/°C, maintaining peak generation capacity even in extreme summer heat.",
+        "faq-q2": "What is the warranty period and what does it cover?",
+        "faq-a2": "We provide a 12-year comprehensive product warranty on materials and workmanship, and a 30-year linear performance warranty guaranteeing at least 87.4% nominal power output at year 30.",
+        "faq-q3": "Can the panels be integrated with battery storage systems?",
+        "faq-a3": "Yes, all our panels are fully compatible with modern hybrid and off-grid inverters (like Deye, Growatt, and Enphase Smart Inverters) and work seamlessly with lithium and lead-acid battery banks.",
+        "faq-q4": "Are the panels compliant with Net Metering grid codes?",
+        "faq-a4": "Yes, Al Noor modules are tested and compliant with national grid codes and local distribution regulations, allowing you to feed surplus solar energy back to the grid safely under Net Metering programs."
     }
 };
 
@@ -812,6 +856,27 @@ function initStickyHeader() {
     });
 }
 
+// 10. FAQ Accordion Toggle
+function initFaq() {
+    const faqItems = document.querySelectorAll(".faq-item");
+    faqItems.forEach(item => {
+        const question = item.querySelector(".faq-question");
+        if (question) {
+            question.addEventListener("click", () => {
+                const isActive = item.classList.contains("active");
+                
+                // Close all other items
+                faqItems.forEach(i => i.classList.remove("active"));
+                
+                // Toggle current item
+                if (!isActive) {
+                    item.classList.add("active");
+                }
+            });
+        }
+    });
+}
+
 // Page initialization
 document.addEventListener("DOMContentLoaded", () => {
     initLanguage();
@@ -823,4 +888,5 @@ document.addEventListener("DOMContentLoaded", () => {
     initContactForm();
     initProjectFilters();
     initScrollReveal();
+    initFaq();
 });
